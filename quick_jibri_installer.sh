@@ -253,7 +253,7 @@ while [[ "$LE_SSL" != "yes" && "$LE_SSL" != "no" ]]
 do
 read -p "> Do you plan to use Let's Encrypt SSL certs?: (yes or no)"$'\n' -r LE_SSL
 if [ $LE_SSL = yes ]; then
-  echo "We'll defaul to Let's Encrypt SSL certs."
+  echo "We'll default to Let's Encrypt SSL certs."
 else
   echo "We'll let you choose later on for it.
   Please be aware that a valid SSL cert is required for some features to work properly."
